@@ -77,7 +77,7 @@ class Home extends Component{
         <div className="button-container">
           {!searchValue && (
           <Button
-            text="load more props"
+            text="load more posts"
             onClick = {this.loadMorePosts}
             disabled={noMorePosts}
          />
